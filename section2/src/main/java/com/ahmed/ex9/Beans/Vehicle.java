@@ -4,7 +4,6 @@ public class Vehicle {
 
     private String name;
 
-
     public Vehicle(){
         System.out.println("vehicle Created");
     }

@@ -3,8 +3,7 @@ package com.ahmed.ex9;
 
 import com.ahmed.ex9.Beans.Car;
 import com.ahmed.ex9.Beans.Engine;
-import com.ahmed.ex9.Beans.Person;
-import com.ahmed.ex9.Beans.Vehicle;
+
 import com.ahmed.ex9.config.ProjectConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

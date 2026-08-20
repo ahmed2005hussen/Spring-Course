@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="236de5de-fb65-4434-aaef-88ba3464904f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/ahmed/backend/controllers/PathVariableController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/ahmed/backend/controllers/RequestMappintController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section2/src/main/java/com/ahmed/ex1/Beans/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section2/src/main/java/com/ahmed/ex1/Beans/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section2/src/main/java/com/ahmed/ex7/Beans/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section2/src/main/java/com/ahmed/ex7/Beans/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section2/src/main/java/com/ahmed/ex7/Example7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section2/src/main/java/com/ahmed/ex7/Example7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section2/src/main/java/com/ahmed/ex9/Beans/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section2/src/main/java/com/ahmed/ex9/Beans/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section2/src/main/java/com/ahmed/ex9/Example9.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section2/src/main/java/com/ahmed/ex9/Example9.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000000008344" />
+      <entry key="MS500" value="1.005736170189448" />
+      <entry key="S2" value="1.4596697568279706" />
+      <entry key="S5" value="2.2107225272680275" />
+      <entry key="S10" value="3.164054361525463" />
+      <entry key="S30" value="7.341906940067176" />
+      <entry key="S60" value="11.519177732771094" />
+      <entry key="M2" value="15.713677114007618" />
+      <entry key="M5" value="19.897337363526933" />
+      <entry key="M10" value="21.777171945616697" />
+      <entry key="M15" value="22.476188489406915" />
+      <entry key="M30" value="23.216076821963544" />
+      <entry key="H1" value="23.60887555089158" />
+      <entry key="H2" value="24.306327906537" />
+      <entry key="H4" value="28.46839876410357" />
+      <entry key="D1" value="52.96166194675768" />
+      <entry key="W1" value="63.827522380167494" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0037672347319792E-8" />
+      <entry key="MS500" value="0.02515001888558655" />
+      <entry key="S2" value="0.45735734607957007" />
+      <entry key="S5" value="1.0228840853074284" />
+      <entry key="S10" value="1.509990572075662" />
+      <entry key="S30" value="2.716079401592854" />
+      <entry key="S60" value="3.88918303464713" />
+      <entry key="M2" value="5.196853928172002" />
+      <entry key="M5" value="6.589909345905233" />
+      <entry key="M10" value="7.232387946335108" />
+      <entry key="M15" value="7.473002986038865" />
+      <entry key="M30" value="7.7285032827477815" />
+      <entry key="H1" value="7.868182832693417" />
+      <entry key="H2" value="8.360031538933672" />
+      <entry key="H4" value="11.64921703986775" />
+      <entry key="D1" value="30.291680786174254" />
+      <entry key="W1" value="38.38881070387132" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="8.998226194791894E-5" />
+      <entry key="MS500" value="0.1649561122616559" />
+      <entry key="S2" value="1.3450196614479404" />
+      <entry key="S5" value="2.8305545535752263" />
+      <entry key="S10" value="4.375736327814164" />
+      <entry key="S30" value="9.843324947529998" />
+      <entry key="S60" value="15.244218402304297" />
+      <entry key="M2" value="20.800511890810125" />
+      <entry key="M5" value="26.432555519577317" />
+      <entry key="M10" value="28.979890310234133" />
+      <entry key="M15" value="29.928843006087774" />
+      <entry key="M30" value="30.934106929080226" />
+      <entry key="H1" value="31.47174151021036" />
+      <entry key="H2" value="32.66358624655355" />
+      <entry key="H4" value="40.115856495426506" />
+      <entry key="D1" value="83.25269596710481" />
+      <entry key="W1" value="102.21621869050578" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3I5rLrZSfCMSoeua3muKI46FFk0" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "HTTP Request.All in generated-requests.executor": "Run",
+    "HTTP Request.generated-requests | #2.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.BackendApplication.executor": "Debug",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/ahmed/Desktop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationStatuses">
+      <map>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="All in generated-requests" value="STOPPED" />
+              <entry key="generated-requests | #2" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BackendApplication">
+    <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#2" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ahmed.backend.BackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #2" />
+        <item itemvalue="HTTP Request.All in generated-requests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="236de5de-fb65-4434-aaef-88ba3464904f" name="Changes" comment="" />
+      <created>1771938482671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771938482671</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

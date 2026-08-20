@@ -15,6 +15,6 @@ public class Example7 {
         System.out.println(c.getName()); // null because we don't set value
         c.hello();
 
-        context.close(); 
+        context.close();
     }
 }
