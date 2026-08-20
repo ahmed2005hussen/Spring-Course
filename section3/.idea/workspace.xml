@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="236de5de-fb65-4434-aaef-88ba3464904f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/ahmed/backend/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/ahmed/backend/versionControllers/VersionSpring7Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ahmed/backend/versionControllers/LegacyVersionApproaches.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ahmed/backend/versionControllers/LegacyVersionApproachesController.java" afterDir="false" />
-    </list>
+    <list default="true" id="236de5de-fb65-4434-aaef-88ba3464904f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +118,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/ahmed/Desktop",
+    "last_opened_file_path": "/home/ahmed/Desktop/Spring Course new/Codes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
