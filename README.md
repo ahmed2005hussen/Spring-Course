@@ -177,6 +177,33 @@ The project currently provides a versioned `GET /api/companies` endpoint backed 
 
 ---
 
+# 🗄️ Section 5 — Spring Data JPA & CORS
+
+Section 5 introduces **Spring Data JPA** for database persistence and expands the Job Portal application with a layered architecture and global CORS configuration.
+
+### 📚 Topics Covered
+
+* 🗄️ Spring Data & Spring Data JPA
+* 🧩 JPA Entity Mapping
+* 🏷️ `@Entity`, `@Table`, `@Id`, `@GeneratedValue` & `@Column`
+* 📦 Spring Data Repository Abstraction
+* 🔄 Repository → Service → DTO architecture
+* 📋 Java Records as DTOs
+* 📝 H2 database initialization with `schema.sql` & `data.sql`
+* 🌍 Global CORS configuration with `WebMvcConfigurer`
+* 🔐 Cross-Origin Resource Sharing (CORS)
+
+`CompanyRepository` uses Spring Data JPA to provide common database operations such as `findAll()`, `findById()`, `save()`, and `deleteById()` without manually implementing the repository.
+
+`CompanyService` handles the application logic and maps JPA entities to `CompanyDto` objects, keeping persistence models separate from API responses.
+
+The section also configures global CORS rules to allow a frontend application running on `http://localhost:5173` to access the backend API under `/api/**`.
+
+📖 See the [Section 5 README](section5/jobportal/README.md) for detailed entity mapping, repository structure, database configuration, and CORS examples.
+
+---
+
+
 # 🛠️ Technologies
 
 The technologies covered throughout this learning journey include:
