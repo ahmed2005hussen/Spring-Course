@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4e34662-8a05-412d-baf0-0ca549b10fb7" name="Changes" comment="" />
+    <list default="true" id="ef6eb872-6a85-4fcb-bb57-090b5049f9d4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/dto/CompanyDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/entity/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/repository/CompanyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/service/CompanyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/service/CompanyServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -33,68 +41,68 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.132965142358613" />
-      <entry key="MS500" value="2.9241523426749088" />
-      <entry key="S2" value="8.617562981210366" />
-      <entry key="S5" value="20.233757453271863" />
-      <entry key="S10" value="36.807132806258934" />
-      <entry key="S30" value="65.10171838739174" />
-      <entry key="S60" value="76.99191060553063" />
-      <entry key="M2" value="84.10550026376157" />
-      <entry key="M5" value="89.89101947162521" />
-      <entry key="M10" value="97.33587762132471" />
-      <entry key="M15" value="105.82639012675271" />
-      <entry key="M30" value="128.8082606660622" />
-      <entry key="H1" value="156.607907093056" />
-      <entry key="H2" value="180.11192434289003" />
-      <entry key="H4" value="195.78355375433085" />
-      <entry key="D1" value="211.5134170035709" />
-      <entry key="W1" value="214.49440747606369" />
+      <entry key="MS100" value="1.4760015644197237" />
+      <entry key="MS500" value="3.814205368725183" />
+      <entry key="S2" value="10.524826670302248" />
+      <entry key="S5" value="22.56064097610267" />
+      <entry key="S10" value="38.66695896565244" />
+      <entry key="S30" value="66.2470736137892" />
+      <entry key="S60" value="78.00454420297068" />
+      <entry key="M2" value="85.03896395603489" />
+      <entry key="M5" value="89.74859953551439" />
+      <entry key="M10" value="91.83774777326799" />
+      <entry key="M15" value="92.97108732442292" />
+      <entry key="M30" value="94.85081830124254" />
+      <entry key="H1" value="97.62377210351053" />
+      <entry key="H2" value="103.44856877626486" />
+      <entry key="H4" value="110.9200652327182" />
+      <entry key="D1" value="122.68672221009776" />
+      <entry key="W1" value="125.50211496792774" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="3.2773472470837197E-90" />
-      <entry key="S5" value="1.6077409374263453E-36" />
-      <entry key="S10" value="1.273078839880773E-18" />
-      <entry key="S30" value="1.2549566182645185E-6" />
-      <entry key="S60" value="0.0014728997019682576" />
-      <entry key="M2" value="0.0584324886200159" />
-      <entry key="M5" value="0.7541994953250143" />
-      <entry key="M10" value="2.4559961795264753" />
-      <entry key="M15" value="4.246459568390074" />
-      <entry key="M30" value="9.38802494938595" />
-      <entry key="H1" value="16.88458310218081" />
-      <entry key="H2" value="24.3223788556655" />
-      <entry key="H4" value="29.78981344426747" />
-      <entry key="D1" value="35.652369071091755" />
-      <entry key="W1" value="36.80352525304092" />
+      <entry key="S2" value="2.4328929753931734E-284" />
+      <entry key="S5" value="5.2912760790274556E-114" />
+      <entry key="S10" value="4.249543369961271E-57" />
+      <entry key="S30" value="4.582543700673627E-19" />
+      <entry key="S60" value="1.6744065970465663E-9" />
+      <entry key="M2" value="1.1792306919697348E-4" />
+      <entry key="M5" value="0.1111765056847359" />
+      <entry key="M10" value="1.1393204220646456" />
+      <entry key="M15" value="2.4954424796796935" />
+      <entry key="M30" value="5.6277192331442984" />
+      <entry key="H1" value="9.63447800772928" />
+      <entry key="H2" value="15.448142298024438" />
+      <entry key="H4" value="21.881396997769336" />
+      <entry key="D1" value="31.38858744804789" />
+      <entry key="W1" value="33.60886167767673" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.0644427132094851" />
-      <entry key="MS500" value="2.8874710723103427" />
-      <entry key="S2" value="8.589951082775283" />
-      <entry key="S5" value="20.207385288667055" />
-      <entry key="S10" value="36.782811677291996" />
-      <entry key="S30" value="65.08712796429185" />
-      <entry key="S60" value="76.98468773206349" />
-      <entry key="M2" value="84.15882514153574" />
-      <entry key="M5" value="90.6410051319581" />
-      <entry key="M10" value="99.7849004512357" />
-      <entry key="M15" value="110.062637603775" />
-      <entry key="M30" value="138.18067744456744" />
-      <entry key="H1" value="173.47644862573787" />
-      <entry key="H2" value="204.42224167900858" />
-      <entry key="H4" value="225.56587772385467" />
-      <entry key="D1" value="247.16428103498168" />
-      <entry key="W1" value="251.29771058247948" />
+      <entry key="MS100" value="1.3928163356834389" />
+      <entry key="MS500" value="3.773744254140322" />
+      <entry key="S2" value="10.49499400595209" />
+      <entry key="S5" value="22.53397039230475" />
+      <entry key="S10" value="38.64379610030811" />
+      <entry key="S30" value="66.23372593362184" />
+      <entry key="S60" value="77.99666692178373" />
+      <entry key="M2" value="85.03477876413167" />
+      <entry key="M5" value="89.85572789457262" />
+      <entry key="M10" value="92.96320176457594" />
+      <entry key="M15" value="95.4463088951688" />
+      <entry key="M30" value="100.45573210783364" />
+      <entry key="H1" value="107.24020278743541" />
+      <entry key="H2" value="118.884295018608" />
+      <entry key="H4" value="132.79370463067713" />
+      <entry key="D1" value="154.07366906813235" />
+      <entry key="W1" value="159.11073109774773" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3,
-  &quot;fromUser&quot;: false
-}</component>
-  <component name="ProjectId" id="3IBl6qJvIaMmezMkOxiKDOpy3xg" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3IM9u0nWhmhBTBhbESFrcxpSBWf" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -109,6 +117,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SearchEverywhere.PersistedScope.ClassSearchEverywhereContributor": "All Places",
     "Spring Boot.JobportalApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
@@ -119,7 +128,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "debugger.hotswap"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
   <component name="RunManager">
@@ -142,7 +151,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d4e34662-8a05-412d-baf0-0ca549b10fb7" name="Changes" comment="" />
+      <changelist id="ef6eb872-6a85-4fcb-bb57-090b5049f9d4" name="Changes" comment="" />
       <created>1771938482671</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
