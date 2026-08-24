@@ -149,7 +149,7 @@ A major topic in this section is **Spring Framework 7's built-in API Versioning 
 * Header versioning
 * Media type versioning
 
-📖 See the [Section 3 README](section3/jobportal/README.md) for endpoint documentation and `curl` examples.
+📖 See the [Section 3 README](section3/README.md) for endpoint documentation and `curl` examples.
 
 ---
 
@@ -173,7 +173,7 @@ Section 4 introduces building a **database-backed Spring Boot application** thro
 
 The project currently provides a versioned `GET /api/companies` endpoint backed by an H2 database and demonstrates how Spring Boot can initialize and persist application data.
 
-📖 See the [Section 4 README](section4/README.md) for detailed configuration, database setup, API documentation, and examples.
+📖 See the [Section 4 README](section4/jobportal/README.md) for detailed configuration, database setup, API documentation, and examples.
 
 ---
 
