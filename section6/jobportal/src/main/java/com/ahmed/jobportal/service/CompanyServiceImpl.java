@@ -1,0 +1,32 @@
+package com.ahmed.jobportal.service;
+
+import com.ahmed.jobportal.dto.CompanyDto;
+import com.ahmed.jobportal.entity.Company;
+import com.ahmed.jobportal.repository.CompanyRepository;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+@Service
+@RequiredArgsConstructor
+public class CompanyServiceImpl implements CompanyService {
+
+    private final CompanyRepository companyRepository;
+
+
+    @Override
+    public List<CompanyDto> getAllCompanies() {
+        List<Company> companyList =companyRepository.findAll();
+        return companyList.stream().map(this::transformToDto).collect(Collectors.toList());
+    }
+
+
+    private CompanyDto transformToDto(Company company) {
+        return new CompanyDto(company.getId(), company.getName(), company.getLogo(),
+                company.getIndustry(), company.getSize(), company.getRating(),
+                company.getLocations(), company.getFounded(), company.getDescription(),
+                company.getEmployees(), company.getWebsite(), company.getCreatedAt());
+    }
+}
