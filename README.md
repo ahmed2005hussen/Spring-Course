@@ -155,30 +155,25 @@ A major topic in this section is **Spring Framework 7's built-in API Versioning 
 
 # 💼 Section 4 — Job Portal Application
 
-This section begins a larger **Job Portal application** and introduces the foundations required for building a real database-backed Spring Boot application.
+Section 4 introduces building a **database-backed Spring Boot application** through a Job Portal project.
 
-### 📚 Technologies & Concepts
+### 📚 Topics Covered
 
-* 🚀 `@SpringBootApplication`
-* 🌐 Spring MVC
-* 🗄️ Spring Data JPA
-* 🧩 JPA Entities
-* 🗃️ H2 Database
-* 🔧 Maven
+* 🚀 `@SpringBootApplication` & Spring Boot application structure
+* 🌐 Spring MVC & REST Controllers
+* 💾 H2 Database
+* 📝 SQL database initialization with `schema.sql` & `data.sql`
+* 💽 File-based H2 databases & data persistence
+* 🖥️ H2 Console
 * ♻️ Spring Boot DevTools
-* 🧪 Application testing and development workflow
+* ⚙️ `WebMvcConfigurer` for centralized MVC configuration
+* 🛣️ Global API path prefixes using `configurePathMatch`
+* 🔢 Spring Framework 7 API Versioning
+* ⚙️ `spring.sql.init.mode` and SQL initialization behavior
 
-The project will gradually evolve into a complete backend application with concepts such as:
+The project currently provides a versioned `GET /api/companies` endpoint backed by an H2 database and demonstrates how Spring Boot can initialize and persist application data.
 
-* 👤 Users
-* 💼 Jobs
-* 🏢 Companies
-* 📄 Applications
-* 🔐 Authentication & Authorization
-* 🗄️ Database persistence
-* 🌐 REST APIs
-
-> 🚧 **This section is currently under development as I continue through the course.**
+📖 See the [Section 4 README](section4/README.md) for detailed configuration, database setup, API documentation, and examples.
 
 ---
 
@@ -203,94 +198,6 @@ The technologies covered throughout this learning journey include:
 🔧 Git & GitHub
 ```
 
----
-
-# ▶️ Running the Projects
-
-## 🌱 Sections 1 & 2 — Spring Core
-
-Run the selected exercise directly from your IDE.
-
-Or compile the projects using Maven:
-
-```bash
-cd section1
-mvn compile
-```
-
-```bash
-cd section2
-mvn compile
-```
-
----
-
-## 🌐 Section 3 — Backend
-
-Start the Spring Boot application:
-
-```bash
-cd section3/backend
-./mvnw spring-boot:run
-```
-
-The API will be available at:
-
-```text
-http://localhost:8080
-```
-
-You can test the endpoints using:
-
-* Postman
-* Browser
-* `curl`
-
----
-
-## 💼 Section 4 — Job Portal
-
-Start the application with:
-
-```bash
-cd section4/jobportal
-./mvnw spring-boot:run
-```
-
----
-
-# 📖 Learning Approach
-
-My learning approach throughout this course is based on:
-
-**Learn → Implement → Experiment → Break Things → Fix Them → Build Projects**
-
-Rather than only watching the lectures, I am implementing the concepts myself through small exercises and gradually larger applications.
-
-The repository will continue to grow as I progress through the course.
-
----
-
-# 📈 Progress
-
-This repository is a record of my journey toward becoming a **Java Backend Engineer**.
-
-### Current Focus
-
-* 🌱 Spring Core
-* 🚀 Spring Boot
-* 🌐 REST APIs
-* 🗄️ JPA & Databases
-* 🔐 Spring Security
-
-### Coming Next
-
-* 🔐 Authentication & Authorization
-* 🗄️ Advanced JPA & Hibernate
-* 🧪 Testing
-* 🐳 Docker
-* ☁️ AWS
-* ⚙️ Production-ready backend development
 
 ---
 
