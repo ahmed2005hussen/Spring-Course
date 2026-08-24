@@ -149,7 +149,7 @@ A major topic in this section is **Spring Framework 7's built-in API Versioning 
 * Header versioning
 * Media type versioning
 
-📖 See the [Section 3 README](section3/README.md) for endpoint documentation and `curl` examples.
+📖 See the [Section 3 README](section3/jobportal/README.md) for endpoint documentation and `curl` examples.
 
 ---
 
