@@ -23,8 +23,9 @@ The goal is to build a strong understanding of the Spring ecosystem — starting
 | 🌱 [Section 1](section1/) | Spring Core Basics                     | IoC, Beans, Configuration & Application Context            |
 | 🔧 [Section 2](section2/) | Dependency Injection & Bean Management | DI, Component Scanning, Lifecycle, Scopes & Bean Selection |
 | 🌐 [Section 3](section3/) | Spring MVC & REST APIs                 | Controllers, HTTP Requests/Responses & API Versioning      |
-| 💼 [Section 4](section4/) | Job Portal Application                 | Spring Boot, JPA, H2 & Database-backed Applications        |
-
+| 💼 [Section 4](section4/) | Job Portal Application | Spring Boot, H2 & Database-backed Applications |
+| 🗄️ [Section 5](section5/) | Spring Data JPA & CORS | JPA, Repositories, DTOs & CORS |
+| 🐳 [Section 6](section6/) | Docker & MySQL | Docker, Docker Compose, MySQL & containerized database development |
 > 🚧 **More sections will be added as I progress through the course.**
 
 ---
@@ -200,6 +201,35 @@ Section 5 introduces **Spring Data JPA** for database persistence and expands th
 The section also configures global CORS rules to allow a frontend application running on `http://localhost:5173` to access the backend API under `/api/**`.
 
 📖 See the [Section 5 README](section5/jobportal/README.md) for detailed entity mapping, repository structure, database configuration, and CORS examples.
+
+---
+
+# 🐳 Section 6 — Docker & MySQL
+
+Section 6 introduces **Docker** and **Docker Compose** for running MySQL as a containerized database instead of installing MySQL directly on the development machine.
+
+### 📚 Topics Covered
+
+* 🐳 Running MySQL with Docker
+* 📦 Docker Compose
+* 🗄️ MySQL database configuration
+* 🔌 MySQL JDBC Driver
+* 🌱 Spring Boot Docker Compose integration
+* 🔐 Environment variables for datasource configuration
+* 💾 Persistent database storage with Docker volumes
+* ⚙️ Externalizing database configuration with Spring properties
+
+The application connects to MySQL using configurable environment variables such as `DATABASE_HOST`, `DATABASE_PORT`, `DATABASE_NAME`, `DATABASE_USERNAME`, and `DATABASE_PASSWORD`, with local development defaults.
+
+Docker Compose is used to define and run the MySQL service with its database, credentials, port mapping, and persistent volume configuration.
+
+The section also demonstrates the role of the main dependencies:
+
+* `spring-boot-starter-data-jpa` — JPA/Hibernate support for database persistence.
+* `mysql-connector-j` — JDBC driver used to connect the application to MySQL.
+* `spring-boot-docker-compose` — integrates Spring Boot with Docker Compose during development.
+
+📖 See the [Section 6 README](section6/jobportal/README.md) for Docker Compose configuration, MySQL setup, datasource properties, and running instructions.
 
 ---
 
