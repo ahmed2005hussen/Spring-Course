@@ -1,4 +1,4 @@
-package com.ahmed.jobportal.service;
+package com.ahmed.jobportal.company.service;
 
 import com.ahmed.jobportal.dto.CompanyDto;
 import com.ahmed.jobportal.entity.Company;
