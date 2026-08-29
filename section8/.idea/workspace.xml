@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90101352-a4e6-4661-95dc-1923c046e265" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/dto/ErrorResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../section7/jobportal/src/main/java/com/ahmed/jobportal/company/controller/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section7/jobportal/src/main/java/com/ahmed/jobportal/company/controller/CompanyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../section7/jobportal/src/main/java/com/ahmed/jobportal/service/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section7/jobportal/src/main/java/com/ahmed/jobportal/company/service/CompanyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../section7/jobportal/src/main/java/com/ahmed/jobportal/service/CompanyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section7/jobportal/src/main/java/com/ahmed/jobportal/company/service/CompanyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/audit/AuditorAwareImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/scopes/ApplicationScopedBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/scopes/RequestScopeBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/scopes/RequestSessionBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/scopes/ScopeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobportal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jobportal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/Contact/controller/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/Contact/controller/ContactController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/Contact/service/impl/ContactServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/Contact/service/impl/ContactServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/JobportalApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/JobportalApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/company/service/CompanyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/company/service/CompanyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/dto/ContactRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/dto/ContactRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/entity/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/entity/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/entity/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/entity/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/exception/GlobalExceptionHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,66 +56,66 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0005245695196037" />
-      <entry key="S2" value="1.2108993949789382" />
-      <entry key="S5" value="1.794380738204455" />
-      <entry key="S10" value="2.2661668941926463" />
-      <entry key="S30" value="3.654862935239614" />
-      <entry key="S60" value="7.28356213586526" />
-      <entry key="M2" value="15.742864987894084" />
-      <entry key="M5" value="30.685254237777034" />
-      <entry key="M10" value="39.641491292481014" />
-      <entry key="M15" value="43.32342712349516" />
-      <entry key="M30" value="47.42572209800291" />
-      <entry key="H1" value="49.650388194895896" />
-      <entry key="H2" value="50.80911825877654" />
-      <entry key="H4" value="51.40048144516132" />
-      <entry key="D1" value="51.89950883905106" />
-      <entry key="W1" value="51.98563005991726" />
+      <entry key="MS500" value="1.0001899698295613" />
+      <entry key="S2" value="1.1267452338942867" />
+      <entry key="S5" value="1.5795694713819222" />
+      <entry key="S10" value="2.1040902562077104" />
+      <entry key="S30" value="4.390501309986314" />
+      <entry key="S60" value="8.181705649242293" />
+      <entry key="M2" value="13.268850224205279" />
+      <entry key="M5" value="19.444240983707186" />
+      <entry key="M10" value="24.20462742180938" />
+      <entry key="M15" value="28.91637308810573" />
+      <entry key="M30" value="45.566672642850925" />
+      <entry key="H1" value="77.32139282286477" />
+      <entry key="H2" value="116.29148867109255" />
+      <entry key="H4" value="149.05465127818064" />
+      <entry key="D1" value="187.65301805461962" />
+      <entry key="W1" value="195.62661380156524" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="3.0640179713251157E-8" />
-      <entry key="MS500" value="0.0314237681405454" />
-      <entry key="S2" value="0.4223576638692898" />
-      <entry key="S5" value="0.7781690721577589" />
-      <entry key="S10" value="1.1158873878260909" />
-      <entry key="S30" value="2.4018035210040662" />
-      <entry key="S60" value="5.150198922879902" />
-      <entry key="M2" value="9.446235901382982" />
-      <entry key="M5" value="14.858760104840796" />
-      <entry key="M10" value="17.580019791781705" />
-      <entry key="M15" value="18.632666866271" />
-      <entry key="M30" value="19.76989425126198" />
-      <entry key="H1" value="20.372782628641904" />
-      <entry key="H2" value="20.68327748116723" />
-      <entry key="H4" value="20.840850973248486" />
-      <entry key="D1" value="20.973364949466283" />
-      <entry key="W1" value="20.996192283181955" />
+      <entry key="MS100" value="4.576209094913183E-137" />
+      <entry key="MS500" value="5.813401209803247E-28" />
+      <entry key="S2" value="2.4244360441148436E-7" />
+      <entry key="S5" value="0.004171122960239688" />
+      <entry key="S10" value="0.13411382772127067" />
+      <entry key="S30" value="1.9724104095833026" />
+      <entry key="S60" value="4.965719247123033" />
+      <entry key="M2" value="9.142821401643282" />
+      <entry key="M5" value="14.7176627419436" />
+      <entry key="M10" value="19.41906047730828" />
+      <entry key="M15" value="23.54114030225389" />
+      <entry key="M30" value="34.76866808858815" />
+      <entry key="H1" value="51.91464412460604" />
+      <entry key="H2" value="70.91457970196778" />
+      <entry key="H4" value="86.20602658060747" />
+      <entry key="D1" value="103.79115520515151" />
+      <entry key="W1" value="107.38260013706618" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.549343056312869E-6" />
-      <entry key="MS500" value="0.07882351649778611" />
-      <entry key="S2" value="0.9586441488971884" />
-      <entry key="S5" value="2.1033160952204364" />
-      <entry key="S10" value="3.049936991054492" />
-      <entry key="S30" value="5.837335519491047" />
-      <entry key="S60" value="12.216986002743061" />
-      <entry key="M2" value="24.98965147434123" />
-      <entry key="M5" value="45.412169628883056" />
-      <entry key="M10" value="57.14139463244023" />
-      <entry key="M15" value="61.89890940203404" />
-      <entry key="M30" value="67.16495302039881" />
-      <entry key="H1" value="70.00728363820735" />
-      <entry key="H2" value="71.4843082416767" />
-      <entry key="H4" value="72.23725204456656" />
-      <entry key="D1" value="72.87218858345548" />
-      <entry key="W1" value="72.98172432998008" />
+      <entry key="MS100" value="0.03589682359365735" />
+      <entry key="MS500" value="0.5140996614371481" />
+      <entry key="S2" value="0.9365881806090594" />
+      <entry key="S5" value="1.457105930866947" />
+      <entry key="S10" value="2.1360955234408965" />
+      <entry key="S30" value="6.209750371260008" />
+      <entry key="S60" value="12.958656313115583" />
+      <entry key="M2" value="22.229159555916798" />
+      <entry key="M5" value="34.037994553863825" />
+      <entry key="M10" value="43.53953608889724" />
+      <entry key="M15" value="52.38837897627366" />
+      <entry key="M30" value="80.28297766802478" />
+      <entry key="H1" value="129.19622339269574" />
+      <entry key="H2" value="187.17859830827842" />
+      <entry key="H4" value="235.2438980783805" />
+      <entry key="D1" value="291.4407929634201" />
+      <entry key="W1" value="303.008714009081" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3IPkB3b1m42lw9KGBufin5e1rnc" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -115,8 +125,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth0": "707",
+    "RequestMappingsPanelWidth1": "706",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -134,6 +144,11 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ahmed.jobportal.scopes" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="JobportalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />

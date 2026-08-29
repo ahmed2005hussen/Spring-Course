@@ -2,13 +2,13 @@ package com.ahmed.jobportal.Contact.controller;
 
 import com.ahmed.jobportal.Contact.service.ContactService;
 import com.ahmed.jobportal.dto.ContactRequestDto;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/contact")
@@ -17,7 +17,7 @@ public class ContactController {
     private final ContactService contactService;
 
     @PostMapping(version = "1.0")
-    public ResponseEntity<String> saveContactMsg(@RequestBody ContactRequestDto request) {
+    public ResponseEntity<String> saveContactMsg(@Valid @RequestBody ContactRequestDto request) {
 
         boolean isSaved = contactService.saveContact(request);
 
@@ -30,5 +30,11 @@ public class ContactController {
                 .body("Request processed failed");
     }
 
+    @GetMapping
+    public ResponseEntity<String> fetchOpenContacts(@RequestParam
+                                                        @NotBlank(message = "can not be empty")
+                                                        @Size(min = 4 , message = "should be greater than 4 characters") String status){
+        return ResponseEntity.ok("These are the contacts with the given status: " + status);
+    }
 
 }

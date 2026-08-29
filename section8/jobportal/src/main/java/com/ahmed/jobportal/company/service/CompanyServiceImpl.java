@@ -15,13 +15,11 @@ public class CompanyServiceImpl implements CompanyService {
 
     private final CompanyRepository companyRepository;
 
-
     @Override
     public List<CompanyDto> getAllCompanies() {
         List<Company> companyList =companyRepository.findAll();
         return companyList.stream().map(this::transformToDto).collect(Collectors.toList());
     }
-
 
     private CompanyDto transformToDto(Company company) {
         return new CompanyDto(company.getId(), company.getName(), company.getLogo(),
