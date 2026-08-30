@@ -245,7 +245,7 @@ Section 7 covers how to control Hibernate's database schema management using `sp
 * 🌍 Recommended `ddl-auto` value per environment (dev / testing / production)
 * 🐶 JPA Buddy plugin for IntelliJ IDEA (entity generation, relationship builder, repository generator)
 
-📖 See the [Section 7 README](section7/README.md) for detailed explanations and comparison tables.
+📖 See the [Section 7 README](section7/jobportal/README.md) for detailed explanations and comparison tables.
 
 ---
 
@@ -261,7 +261,7 @@ Section 8 covers how to handle errors consistently, validate incoming request da
 * 📄 Springdoc OpenAPI (Swagger UI, API documentation)
 * 📦 Bean Scopes in Spring (Singleton, Prototype, Request, Session, Application, WebSocket)
 
-📖 See the [Section 8 README](section8/README.md) for detailed explanations and code examples.
+📖 See the [Section 8 README](section8/jobportal/README.md) for detailed explanations and code examples.
 
 ---
 
