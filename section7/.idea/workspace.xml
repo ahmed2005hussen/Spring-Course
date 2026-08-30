@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e4fded4-f5a5-4184-a0dc-4a16d25b7bcf" name="Changes" comment="" />
+    <list default="true" id="1e4fded4-f5a5-4184-a0dc-4a16d25b7bcf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../section9/jobportal/src/main/java/com/ahmed/jobportal/dto/JobDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../section9/jobportal/src/main/java/com/ahmed/jobportal/entity/Job.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/jobportal/src/main/java/com/ahmed/jobportal/company/service/CompanyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section9/jobportal/src/main/java/com/ahmed/jobportal/company/service/CompanyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/jobportal/src/main/java/com/ahmed/jobportal/dto/CompanyDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section9/jobportal/src/main/java/com/ahmed/jobportal/dto/CompanyDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/jobportal/src/main/java/com/ahmed/jobportal/entity/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section9/jobportal/src/main/java/com/ahmed/jobportal/entity/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/jobportal/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../section9/jobportal/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section9/jobportal/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../section9/jobportal/src/main/resources/schema.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
