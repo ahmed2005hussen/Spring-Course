@@ -26,6 +26,8 @@ The goal is to build a strong understanding of the Spring ecosystem — starting
 | 💼 [Section 4](section4/) | Job Portal Application | Spring Boot, H2 & Database-backed Applications |
 | 🗄️ [Section 5](section5/) | Spring Data JPA & CORS | JPA, Repositories, DTOs & CORS |
 | 🐳 [Section 6](section6/) | Docker & MySQL | Docker, Docker Compose, MySQL & containerized database development |
+| 🗄️ [Section 7](section7/) | Schema Management & JPA Buddy | `ddl-auto` modes & JPA Buddy IntelliJ plugin |
+| ⚠️ [Section 8](section8/) | Exception Handling, Validation, Auditing, API Docs & Bean Scopes | Global Exception Handling, Validation, JPA Auditing, Springdoc OpenAPI & Bean Scopes |
 > 🚧 **More sections will be added as I progress through the course.**
 
 ---
@@ -233,6 +235,35 @@ The section also demonstrates the role of the main dependencies:
 
 ---
 
+# 🗄️ Section 7 — Schema Management (`ddl-auto`) & JPA Buddy Plugin
+
+Section 7 covers how to control Hibernate's database schema management using `spring.jpa.hibernate.ddl-auto`, and how to speed up JPA development in IntelliJ IDEA using the JPA Buddy plugin.
+
+### 📚 Topics Covered
+
+* 🧬 `spring.jpa.hibernate.ddl-auto` values: `create`, `create-drop`, `create-only`, `drop`, `update`, `validate`, `truncate`, `none`
+* 🌍 Recommended `ddl-auto` value per environment (dev / testing / production)
+* 🐶 JPA Buddy plugin for IntelliJ IDEA (entity generation, relationship builder, repository generator)
+
+📖 See the [Section 7 README](section7/README.md) for detailed explanations and comparison tables.
+
+---
+
+# ⚠️ Section 8 — Global Exception Handling, Validation, Auditing, API Docs & Bean Scopes
+
+Section 8 covers how to handle errors consistently, validate incoming request data, automatically audit entity changes with JPA, document REST APIs with Springdoc OpenAPI, and understand Spring's different bean scopes.
+
+### 📚 Topics Covered
+
+* ⚠️ Global Exception Handling (`@ExceptionHandler`, `@RestControllerAdvice`)
+* ✅ Validations in Spring Boot REST APIs (`@Valid`, `@Validated`, Jakarta Validation annotations)
+* 🕒 Auditing in Spring Boot with JPA (`@CreatedDate`, `@CreatedBy`, `@LastModifiedDate`, `@LastModifiedBy`, `AuditorAware`, `@EnableJpaAuditing`)
+* 📄 Springdoc OpenAPI (Swagger UI, API documentation)
+* 📦 Bean Scopes in Spring (Singleton, Prototype, Request, Session, Application, WebSocket)
+
+📖 See the [Section 8 README](section8/README.md) for detailed explanations and code examples.
+
+---
 
 # 🛠️ Technologies
 
