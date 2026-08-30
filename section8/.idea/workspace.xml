@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="90101352-a4e6-4661-95dc-1923c046e265" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/Contact/controller/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/Contact/controller/ContactController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/scopes/ScopeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/scopes/ScopeController.java" afterDir="false" />
-    </list>
+    <list default="true" id="90101352-a4e6-4661-95dc-1923c046e265" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
