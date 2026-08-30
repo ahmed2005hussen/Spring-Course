@@ -1,62 +1,64 @@
-# Job Portal: Docker and MySQL
+# 🗄️ Section 7 — Schema Management (`ddl-auto`) & JPA Buddy Plugin
 
-This application stores its data in a MySQL database. Docker is used to run MySQL locally, so MySQL does not need to be installed directly on the machine.
+Section 7 covers how to control Hibernate's database schema management using `spring.jpa.hibernate.ddl-auto`, and how to speed up JPA development in IntelliJ IDEA using the **JPA Buddy** plugin.
 
-## MySQL configuration
+---
 
-The datasource is configured in `src/main/resources/application.properties`:
+## 📚 Topics Covered
 
-```properties
-spring.datasource.url=jdbc:mysql://${DATABASE_HOST:localhost}:${DATABASE_PORT:3306}/${DATABASE_NAME:jobportal}
-spring.datasource.username=${DATABASE_USERNAME:root}
-spring.datasource.password=${DATABASE_PASSWORD:root}
-```
+* 🧬 `spring.jpa.hibernate.ddl-auto` and its modes (`create`, `create-drop`, `create-only`, `drop`, `update`, `validate`, `truncate`, `none`)
+* 🌍 Recommended `ddl-auto` value per environment (local dev / testing / production)
+* 🐶 JPA Buddy plugin for IntelliJ IDEA
 
-Spring uses the environment variables when they are provided. Otherwise, it connects with these defaults:
+---
 
-| Setting | Default value |
-| --- | --- |
-| Host | `localhost` |
-| Port | `3306` |
-| Database | `jobportal` |
-| Username | `root` |
-| Password | `root` |
+## 🧬 `spring.jpa.hibernate.ddl-auto`
 
-## Start MySQL with Docker Compose
+Based on the value assigned to this property, Hibernate decides what to do with your database schema. Depending on the value, it can create, update, validate, or delete your schema.
 
-The project includes [`../compose.yml`](../compose.yml), which starts a MySQL container named `jobportaldb`. It creates the `jobportal` database, sets the root password to `root`, exposes port `3306`, and persists MySQL data in `/home/ahmed/Desktop/jobportal-data`.
+| Value          | Meaning                                                              | Use Case                                  |
+| -------------- | --------------------------------------------------------------------- | ------------------------------------------ |
+| `create`       | Drops existing tables, then creates new ones from scratch each start | Early development, testing fresh schema. ⚠️ All existing data is lost |
+| `create-drop`  | Creates tables on startup, drops them on shutdown                    | Unit tests, in-memory databases            |
+| `create-only`  | Only creates schema, never drops                                     | Initial migrations / one-off setup         |
+| `drop`         | Drops all tables, creates nothing                                    | Rare — mostly for tools or scripted cleanup |
+| `update`       | Updates schema if necessary (adds columns, tables)                   | Development only. ⚠️ Not safe for production — can break schema or cause silent issues |
+| `validate`     | Checks if the DB schema matches entities. No changes made            | Staging / Production                       |
+| `truncate`     | Deletes all rows but keeps table structure                           | Resetting test data without dropping tables |
+| `none`         | Hibernate will NOT manage the schema. The DB admin is the boss        | Production (recommended)                   |
 
-From this `jobportal` directory, make sure Docker is running and start the database:
+### Recommended usage
 
-```bash
-docker compose -f ../compose.yml up -d
-```
+| Environment | Recommended Value            |
+| ----------- | ----------------------------- |
+| Local Dev   | `update`, `create`, `create-drop` |
+| Testing     | `create-drop`, `validate`     |
+| Production  | `none` or `validate`          |
 
-This matches the application's default datasource values: `localhost:3306`, database `jobportal`, username `root`, and password `root`.
+> Defaults to `create-drop` when using an embedded database and no schema manager was detected. Otherwise, defaults to `none`.
 
-To stop or remove the database container:
+---
 
-```bash
-docker compose -f ../compose.yml stop
-docker compose -f ../compose.yml down
-```
+## 🐶 JPA Buddy Plugin (IntelliJ IDEA)
 
-To run the application with different database values, set the matching environment variables before starting Spring Boot:
+A powerful IntelliJ IDEA plugin for working with JPA, Hibernate, and Spring Data. Helps generate entities, repositories, DTOs, and database mappings. Provides easy tools to navigate, validate, and improve your JPA layer, and reduces boilerplate and eliminates common mistakes in JPA development.
 
-```bash
-DATABASE_HOST=localhost DATABASE_PORT=3306 DATABASE_NAME=jobportal DATABASE_USERNAME=root DATABASE_PASSWORD=root ./mvnw spring-boot:run
-```
+**Top features:**
+- Entity Generation Wizard
+- Relationship Builder (`@OneToOne`, `@OneToMany`, etc.)
+- Repository/DAO Generator
+- JSON → Entity conversion
+- Database Schema Synchronization
+- Attribute/Column Type Suggestions
+- JPA Error Inspection (real-time warnings)
 
-## Relevant Maven dependencies
+**Installing JPA Buddy:**
+1. Go to `File → Settings → Plugins`
+2. Search for "JPA Buddy" and "Jakarta EE: JPA Model"
+3. Install both of them & restart IntelliJ IDEA
 
-- `spring-boot-starter-data-jpa` provides JPA/Hibernate support for accessing relational data.
-- `com.mysql:mysql-connector-j` is the MySQL JDBC driver used at runtime to connect to the database.
-- `spring-boot-docker-compose` lets Spring Boot manage a Docker Compose file automatically. The default Compose-file selection can be overridden with `spring.docker.compose.file`; an example is commented out in `application.properties`.
+> JetBrains premium version gives extra features compared to the free version.
 
-## Run the application
+---
 
-After MySQL is ready:
-
-```bash
-./mvnw spring-boot:run
-```
+### 🚀 Keep Learning. Keep Building. Keep Improving.
