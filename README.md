@@ -29,6 +29,7 @@ The goal is to build a strong understanding of the Spring ecosystem — starting
 | 🗄️ [Section 7](section7/) | Schema Management & JPA Buddy | `ddl-auto` modes & JPA Buddy IntelliJ plugin |
 | ⚠️ [Section 8](section8/) | Exception Handling, Validation, Auditing, API Docs & Bean Scopes | Global Exception Handling, Validation, JPA Auditing, Springdoc OpenAPI & Bean Scopes |
 | 🔗 [Section 9](section9/) | JPA Entity Relationships, Cascade & Fetch Strategies | `@OneToMany`/`@ManyToOne`, Cascade Types, Fetch Types & `@OnDelete` |
+| 🔐 [Section 10](section10/) | Spring Security Fundamentals & Internal Flow | Default Security Config, Custom Filter Chains, CORS & Authentication Flow |
 > 🚧 **More sections will be added as I progress through the course.**
 
 ---
@@ -282,6 +283,25 @@ Section 9 covers how to model real-world relationships between JPA entities — 
 * 🔄 Bidirectional relationships
 
 📖 See the [Section 9 README](section9/jobportal/README.md) for detailed explanations and code examples.
+
+---
+
+# 🔐 Section 10 — Spring Security Fundamentals & Internal Flow
+
+Section 10 introduces **Spring Security** — how it protects a Spring Boot application by default, how to customize authentication and authorization rules, and how a request actually flows through its internal components.
+
+### 📚 Topics Covered
+
+* 🔐 Spring Security introduction & default (zero-configuration) behavior
+* 🔑 Default credentials & custom user configuration
+* 🚫 Disabling Form Login & HTTP Basic Login
+* ✅ `permitAll()` / ⛔ `denyAll()` configurations
+* 🛠️ Custom `SecurityFilterChain` configuration (public vs. secured paths)
+* 🌍 CORS configuration with Spring Security
+* 🔄 Spring Security internal flow (Filters → Authentication → AuthenticationManager → Providers → SecurityContext)
+* 📦 Analogy of the internal flow with SDLC roles
+
+📖 See the [Section 10 README](section10/jobportal/README.md) for detailed explanations and code examples.
 
 ---
 
