@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ed34b6d2-dbd8-440e-84d7-05b003f35a50" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000047194174395" />
+      <entry key="S5" value="1.0101360794064658" />
+      <entry key="S10" value="1.1584355719970474" />
+      <entry key="S30" value="2.0986353111766824" />
+      <entry key="S60" value="2.809826523423614" />
+      <entry key="M2" value="3.32831007915676" />
+      <entry key="M5" value="3.710240916634035" />
+      <entry key="M10" value="3.851353415598253" />
+      <entry key="M15" value="3.900045284656763" />
+      <entry key="M30" value="3.9495890651712617" />
+      <entry key="H1" value="3.9746851748081466" />
+      <entry key="H2" value="3.9873151265682356" />
+      <entry key="H4" value="3.9936506828410967" />
+      <entry key="D1" value="3.9989408235606105" />
+      <entry key="W1" value="3.9998486656285688" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.5240124881150015E-113" />
+      <entry key="MS500" value="2.780643066610728E-23" />
+      <entry key="S2" value="3.2097849203325173E-6" />
+      <entry key="S5" value="0.011550133457182112" />
+      <entry key="S10" value="0.20318430186187722" />
+      <entry key="S30" value="1.4615203286119338" />
+      <entry key="S60" value="2.413736598876474" />
+      <entry key="M2" value="3.10591360463344" />
+      <entry key="M5" value="3.6146583193224853" />
+      <entry key="M10" value="3.8023860760808925" />
+      <entry key="M15" value="3.8671334391880343" />
+      <entry key="M30" value="3.932998236260304" />
+      <entry key="H1" value="3.966355763078669" />
+      <entry key="H2" value="3.983141887313111" />
+      <entry key="H4" value="3.991561925592455" />
+      <entry key="D1" value="3.9985924000972934" />
+      <entry key="W1" value="3.9997988835636327" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="7.625592925444341E-16" />
+      <entry key="MS500" value="9.472284280681E-4" />
+      <entry key="S2" value="0.17543868525806422" />
+      <entry key="S5" value="0.5165042008222905" />
+      <entry key="S10" value="1.0361747329939828" />
+      <entry key="S30" value="3.3728924924178827" />
+      <entry key="S60" value="5.102118821729297" />
+      <entry key="M2" value="6.363422089743293" />
+      <entry key="M5" value="7.293611409421743" />
+      <entry key="M10" value="7.637547431872502" />
+      <entry key="M15" value="7.756257914089425" />
+      <entry key="M30" value="7.877062738775975" />
+      <entry key="H1" value="7.9382624065391685" />
+      <entry key="H2" value="7.969063659099821" />
+      <entry key="H4" value="7.984514905422817" />
+      <entry key="D1" value="7.99741679709099" />
+      <entry key="W1" value="7.999630913326311" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3IgItE7EcRHs0JEmYLq0GOveAfk" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/ahmed/Desktop/Spring Course new/Codes/section11",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="JobportalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="jobportal" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ahmed.jobportal.JobportalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed34b6d2-dbd8-440e-84d7-05b003f35a50" name="Changes" comment="" />
+      <created>1771938482671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771938482671</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
