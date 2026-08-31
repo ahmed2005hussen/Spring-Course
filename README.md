@@ -19,7 +19,7 @@ The goal is to build a strong understanding of the Spring ecosystem — starting
 ## 🗺️ Learning Roadmap
 
 | Section                   | Topic                                  | What I Learned                                             |
-| ------------------------- | -------------------------------------- | ---------------------------------------------------------- |
+| ------------------------- | --------------------------------------- | ------------------------------------------------------------ |
 | 🌱 [Section 1](section1/) | Spring Core Basics                     | IoC, Beans, Configuration & Application Context            |
 | 🔧 [Section 2](section2/) | Dependency Injection & Bean Management | DI, Component Scanning, Lifecycle, Scopes & Bean Selection |
 | 🌐 [Section 3](section3/) | Spring MVC & REST APIs                 | Controllers, HTTP Requests/Responses & API Versioning      |
@@ -28,6 +28,7 @@ The goal is to build a strong understanding of the Spring ecosystem — starting
 | 🐳 [Section 6](section6/) | Docker & MySQL | Docker, Docker Compose, MySQL & containerized database development |
 | 🗄️ [Section 7](section7/) | Schema Management & JPA Buddy | `ddl-auto` modes & JPA Buddy IntelliJ plugin |
 | ⚠️ [Section 8](section8/) | Exception Handling, Validation, Auditing, API Docs & Bean Scopes | Global Exception Handling, Validation, JPA Auditing, Springdoc OpenAPI & Bean Scopes |
+| 🔗 [Section 9](section9/) | JPA Entity Relationships, Cascade & Fetch Strategies | `@OneToMany`/`@ManyToOne`, Cascade Types, Fetch Types & `@OnDelete` |
 > 🚧 **More sections will be added as I progress through the course.**
 
 ---
@@ -262,6 +263,25 @@ Section 8 covers how to handle errors consistently, validate incoming request da
 * 📦 Bean Scopes in Spring (Singleton, Prototype, Request, Session, Application, WebSocket)
 
 📖 See the [Section 8 README](section8/jobportal/README.md) for detailed explanations and code examples.
+
+---
+
+# 🔗 Section 9 — JPA Entity Relationships, Cascade & Fetch Strategies
+
+Section 9 covers how to model real-world relationships between JPA entities — using the Job Portal's `Company` and `Job` entities — and how to control fetching and cascading behavior.
+
+### 📚 Topics Covered
+
+* 🔗 `@OneToMany` & `@ManyToOne` relationships
+* 🧭 Owning side vs. inverse side (`mappedBy`)
+* ♻️ Cascade types (`PERSIST`, `MERGE`, `REMOVE`, `REFRESH`, `DETACH`, `ALL`)
+* 🗑️ `orphanRemoval`
+* ⚡ Fetch types (`EAGER` vs `LAZY`) & their defaults per relationship
+* 💣 `@OnDelete(action = OnDeleteAction.CASCADE)` — database-level cascading deletes
+* ⚖️ `@OnDelete` vs `CascadeType.REMOVE`
+* 🔄 Bidirectional relationships
+
+📖 See the [Section 9 README](section9/jobportal/README.md) for detailed explanations and code examples.
 
 ---
 
