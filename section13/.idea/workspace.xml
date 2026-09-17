@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ed34b6d2-dbd8-440e-84d7-05b003f35a50" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/jobportal/src/main/java/com/ahmed/jobportal/company/controller/LoggingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jobportal/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section1/src/main/java/com/ahmed/Beans/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section1/src/main/java/com/ahmed/Beans/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section1/src/main/java/com/ahmed/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section1/src/main/java/com/ahmed/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section1/src/main/java/com/ahmed/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section1/src/main/java/com/ahmed/config/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section11/jobportal/src/main/java/com/ahmed/jobportal/security/JobPortalSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section11/jobportal/src/main/java/com/ahmed/jobportal/security/JobPortalSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section11/jobportal/src/main/java/com/ahmed/jobportal/security/filter/JwtTokenValidatorFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section11/jobportal/src/main/java/com/ahmed/jobportal/security/filter/JwtTokenValidatorFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section11/jobportal/src/main/java/com/ahmed/jobportal/security/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section11/jobportal/src/main/java/com/ahmed/jobportal/security/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section11/jobportal/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../section11/jobportal/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section12/jobportal/src/main/java/com/ahmed/jobportal/auth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section12/jobportal/src/main/java/com/ahmed/jobportal/auth/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section12/jobportal/src/main/java/com/ahmed/jobportal/config/web/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section12/jobportal/src/main/java/com/ahmed/jobportal/config/web/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section12/jobportal/src/main/java/com/ahmed/jobportal/entity/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section12/jobportal/src/main/java/com/ahmed/jobportal/entity/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section12/jobportal/src/main/java/com/ahmed/jobportal/entity/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section12/jobportal/src/main/java/com/ahmed/jobportal/entity/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section12/jobportal/src/main/java/com/ahmed/jobportal/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section12/jobportal/src/main/java/com/ahmed/jobportal/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section12/jobportal/src/main/java/com/ahmed/jobportal/repository/CompanyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section12/jobportal/src/main/java/com/ahmed/jobportal/repository/CompanyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section12/jobportal/src/main/java/com/ahmed/jobportal/security/JobPortalSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section12/jobportal/src/main/java/com/ahmed/jobportal/security/JobPortalSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section12/jobportal/src/main/java/com/ahmed/jobportal/security/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section12/jobportal/src/main/java/com/ahmed/jobportal/security/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section12/jobportal/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../section12/jobportal/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section2/src/main/java/com/ahmed/ex8/Example8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section2/src/main/java/com/ahmed/ex8/Example8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section2/src/main/java/com/ahmed/ex9/Example9.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section2/src/main/java/com/ahmed/ex9/Example9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/backend/src/main/java/com/ahmed/backend/controllers/RequestHeaderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section3/backend/src/main/java/com/ahmed/backend/controllers/RequestHeaderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section3/backend/src/main/java/com/ahmed/backend/controllers/RequestMappintController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section3/backend/src/main/java/com/ahmed/backend/controllers/RequestMappingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../section4/jobportal/src/main/java/com/ahmed/jobportal/config/web/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../section4/jobportal/src/main/java/com/ahmed/jobportal/config/web/WebConfig.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="1cc36c1b-8cb9-4fe4-ba9a-452d5bae569e" value="" />
+    </colors>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="com.intellij.jpb.JpaRepository" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0000000000000933" />
+      <entry key="S30" value="1.000071718179846" />
+      <entry key="S60" value="1.0133625874787482" />
+      <entry key="M2" value="1.2750648160977882" />
+      <entry key="M5" value="6.295734682697866" />
+      <entry key="M10" value="23.04077300834622" />
+      <entry key="M15" value="38.98931710490195" />
+      <entry key="M30" value="69.56580521499211" />
+      <entry key="H1" value="99.54454802949681" />
+      <entry key="H2" value="137.38373449420203" />
+      <entry key="H4" value="189.9234683977011" />
+      <entry key="D1" value="309.1066102402554" />
+      <entry key="W1" value="346.08352836292755" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="8.620400550933405E-270" />
+      <entry key="S2" value="6.7387916124554535E-68" />
+      <entry key="S5" value="1.9460857680441426E-27" />
+      <entry key="S10" value="6.178623178128997E-14" />
+      <entry key="S30" value="6.261908253692847E-5" />
+      <entry key="S60" value="0.011231416404202083" />
+      <entry key="M2" value="0.16360388253414934" />
+      <entry key="M5" value="1.4404059113641006" />
+      <entry key="M10" value="5.253682756914655" />
+      <entry key="M15" value="9.338459570516465" />
+      <entry key="M30" value="18.248367217090724" />
+      <entry key="H1" value="30.13164156953114" />
+      <entry key="H2" value="51.02869987736093" />
+      <entry key="H4" value="82.19721181813581" />
+      <entry key="D1" value="151.1501318655922" />
+      <entry key="W1" value="172.09839480431907" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.8122523963562355" />
+      <entry key="MS500" value="0.9592641193252643" />
+      <entry key="S2" value="0.989656656415207" />
+      <entry key="S5" value="0.9958497530944581" />
+      <entry key="S10" value="0.9979227189991913" />
+      <entry key="S30" value="0.9994372777310965" />
+      <entry key="S60" value="1.0238828142842515" />
+      <entry key="M2" value="1.4355386736002533" />
+      <entry key="M5" value="7.720296470779874" />
+      <entry key="M10" value="28.263337385327194" />
+      <entry key="M15" value="48.291402262951536" />
+      <entry key="M30" value="87.77989008270741" />
+      <entry key="H1" value="129.6498028588009" />
+      <entry key="H2" value="188.39213591964148" />
+      <entry key="H4" value="272.10535271363557" />
+      <entry key="D1" value="460.25225924944857" />
+      <entry key="W1" value="518.1811983907071" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3IgItE7EcRHs0JEmYLq0GOveAfk" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.JobportalApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ahmed/Desktop/Spring Course new/Codes/section13&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="JobportalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="jobportal" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ahmed.jobportal.JobportalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10315.125" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10315.125" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed34b6d2-dbd8-440e-84d7-05b003f35a50" name="Changes" comment="" />
+      <created>1771938482671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771938482671</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

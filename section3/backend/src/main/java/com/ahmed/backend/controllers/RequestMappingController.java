@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api") // on top of class of we have common path
-public class RequestMappintController {
+public class RequestMappingController {
 
     @RequestMapping("/hello1")
     public String hello1() {
