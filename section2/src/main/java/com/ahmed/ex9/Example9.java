@@ -16,5 +16,7 @@ public class Example9 {
         var p = context.getBean(Engine.class);
         System.out.println(v);
         System.out.println(p);
+        System.out.println((v.getEngine()).equals(p));
+
     }
 }

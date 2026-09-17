@@ -9,7 +9,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
 
-
     /**
      * Configure API versioning for the application. In order for versioning to
      * be enabled, you must configure at least one way to resolve the API
@@ -31,5 +30,7 @@ public class WebConfig implements WebMvcConfigurer {
 
         configurer.addPathPrefix("/api", _-> true); // unamed variables
 
+
     }
+
 }

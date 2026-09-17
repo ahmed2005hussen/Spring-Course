@@ -47,7 +47,7 @@ public class RequestHeaderController {
 
         // h.get() -> list of String
         // h.getFirst() -> first value in String
-        return "With Map, Get one header: " + h.get("Content-Type") + " , Location: "
+        return "With HttpHeaders, Get one header: " + h.get("Content-Type") + " , Location: "
                 + h.get("User-Location");
 
     }

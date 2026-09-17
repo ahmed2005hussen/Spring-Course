@@ -17,6 +17,7 @@ public class Example8 {
         System.out.println(v);
         System.out.println(p);
         System.out.println(p1);
+        System.out.println((p1.getVehicle()).equals(p.getVehicle()));
 
     }
 }
