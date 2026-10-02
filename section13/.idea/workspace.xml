@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ed34b6d2-dbd8-440e-84d7-05b003f35a50" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="1cc36c1b-8cb9-4fe4-ba9a-452d5bae569e" value="" />
+    </colors>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="com.intellij.jpb.JpaRepository" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.9265935767251903" />
+      <entry key="MS500" value="4.855268470223883" />
+      <entry key="S2" value="11.011704334537514" />
+      <entry key="S5" value="18.93704642043255" />
+      <entry key="S10" value="26.42486831933608" />
+      <entry key="S30" value="36.601465510825385" />
+      <entry key="S60" value="40.483222807882164" />
+      <entry key="M2" value="42.92801031400888" />
+      <entry key="M5" value="47.65907155276807" />
+      <entry key="M10" value="62.03371173756532" />
+      <entry key="M15" value="77.16271301221587" />
+      <entry key="M30" value="108.3419430480515" />
+      <entry key="H1" value="140.02870785844866" />
+      <entry key="H2" value="179.24855044782524" />
+      <entry key="H4" value="232.75219515903524" />
+      <entry key="D1" value="353.51705601872595" />
+      <entry key="W1" value="390.9892145624725" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.6707237814721953E-103" />
+      <entry key="S5" value="1.1140149722703485E-41" />
+      <entry key="S10" value="4.6747267988704246E-21" />
+      <entry key="S30" value="2.6484688872852285E-7" />
+      <entry key="S60" value="7.304300243554476E-4" />
+      <entry key="M2" value="0.04172205100179464" />
+      <entry key="M5" value="0.8338994982928813" />
+      <entry key="M10" value="3.9974059372185735" />
+      <entry key="M15" value="7.7830803756283435" />
+      <entry key="M30" value="16.659507104801023" />
+      <entry key="H1" value="28.790012986267424" />
+      <entry key="H2" value="49.87972351078508" />
+      <entry key="H4" value="81.26655564884356" />
+      <entry key="D1" value="150.86355067208007" />
+      <entry key="W1" value="172.05174271447905" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.6098991891872765" />
+      <entry key="MS500" value="4.7054947899138035" />
+      <entry key="S2" value="10.942791542422153" />
+      <entry key="S5" value="18.895318398697093" />
+      <entry key="S10" value="26.396402211880577" />
+      <entry key="S30" value="36.588133850787216" />
+      <entry key="S60" value="40.476483776609804" />
+      <entry key="M2" value="42.96500213882183" />
+      <entry key="M5" value="48.48216815437036" />
+      <entry key="M10" value="66.0066153507581" />
+      <entry key="M15" value="84.9149250723316" />
+      <entry key="M30" value="124.96987544453893" />
+      <entry key="H1" value="168.79337006722997" />
+      <entry key="H2" value="229.10836302007004" />
+      <entry key="H4" value="314.00356206334" />
+      <entry key="D1" value="504.3761265341206" />
+      <entry key="W1" value="563.0402318682796" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3IgItE7EcRHs0JEmYLq0GOveAfk" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.JobportalApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/ahmed/Desktop/Spring Course new/Codes/section_13",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="JobportalApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="jobportal" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ahmed.jobportal.JobportalApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10315.125" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10315.125" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed34b6d2-dbd8-440e-84d7-05b003f35a50" name="Changes" comment="" />
+      <created>1771938482671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771938482671</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
