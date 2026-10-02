@@ -1,0 +1,14 @@
+services:
+  dbservice:
+    image: mysql:latest
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: jobportal
+    volumes:
+      - jobportal-data:/var/lib/mysql
+volumes:
+  jobportal-data:
+    external: true
+    name: section7_jobportal-data

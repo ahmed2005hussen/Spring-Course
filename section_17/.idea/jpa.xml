@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig" newRepositoryParent="org.springframework.data.jpa.repository.JpaRepository">
+    <option name="reLastEntityCreationPackage" value="jobportal/src/main/java/com/ahmed/jobportal/entity" />
+    <option name="reverseEngineeringLastDbConnectionId" value="1cc36c1b-8cb9-4fe4-ba9a-452d5bae569e" />
+  </component>
+  <component name="JpaPluginProjectSettings">
+    <option name="lastSelectedLanguage" value="Java" />
+  </component>
+</project>

@@ -1,0 +1,314 @@
+{"timestamp":"2026-09-18 10:25:03","level":"INFO","logger":"com.ahmed.jobportal.JobportalApplication","message":"Starting JobportalApplication using Java 25.0.2 with PID 21552 (/home/ahmed/Desktop/Spring Course new/Codes/section_14/jobportal/target/classes started by ahmed in /home/ahmed/Desktop/Spring Course new/Codes/section_14)"}{"timestamp":"2026-09-18 10:25:03","level":"INFO","logger":"com.ahmed.jobportal.JobportalApplication","message":"No active profile set, falling back to 1 default profile: "default""}{"timestamp":"2026-09-18 10:25:03","level":"INFO","logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","message":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable"}{"timestamp":"2026-09-18 10:25:03","level":"INFO","logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","message":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'"}{"timestamp":"2026-09-18 10:25:03","level":"INFO","logger":"org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager","message":"Using Docker Compose file /home/ahmed/Desktop/Spring Course new/Codes/section_14/compose.yml"}{"timestamp":"2026-09-18 10:25:04","level":"INFO","logger":"org.hibernate.validator.internal.util.Version","message":"HV000001: Hibernate Validator 9.1.0.Final"}{"timestamp":"2026-09-18 10:25:05","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":" Network section_14_default Creating "}{"timestamp":"2026-09-18 10:25:05","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":" Network section_14_default Created "}{"timestamp":"2026-09-18 10:25:05","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":" Container jobportaldb Creating "}{"timestamp":"2026-09-18 10:25:05","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":" Container jobportaldb Error response from daemon: Conflict. The container name "/jobportaldb" is already in use by container "275b1af628abc80735cad1ddb1a9cad762599b53236c0cda53728c6235b38fe9". You have to remove (or rename) that container to be able to reuse that name. "}{"timestamp":"2026-09-18 10:25:05","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":"Error response from daemon: Conflict. The container name "/jobportaldb" is already in use by container "275b1af628abc80735cad1ddb1a9cad762599b53236c0cda53728c6235b38fe9". You have to remove (or rename) that container to be able to reuse that name."}{"timestamp":"2026-09-18 10:25:05","level":"INFO","logger":"org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager","message":"docker compose up failed with the following logs:
+
+"}{"timestamp":"2026-09-18 10:25:05","level":"ERROR","logger":"org.springframework.boot.SpringApplication","message":"Application run failed"}org.springframework.boot.docker.compose.core.ProcessExitException: 'docker compose --file /home/ahmed/Desktop/Spring Course new/Codes/section_14/compose.yml --ansi never up --no-color --detach --wait' failed with exit code 1.
+
+Stdout:
+
+
+Stderr:
+ Network section_14_default Creating 
+ Network section_14_default Created 
+ Container jobportaldb Creating 
+ Container jobportaldb Error response from daemon: Conflict. The container name "/jobportaldb" is already in use by container "275b1af628abc80735cad1ddb1a9cad762599b53236c0cda53728c6235b38fe9". You have to remove (or rename) that container to be able to reuse that name. 
+Error response from daemon: Conflict. The container name "/jobportaldb" is already in use by container "275b1af628abc80735cad1ddb1a9cad762599b53236c0cda53728c6235b38fe9". You have to remove (or rename) that container to be able to reuse that name.
+
+	at org.springframework.boot.docker.compose.core.ProcessRunner.run(ProcessRunner.java:102)
+	at org.springframework.boot.docker.compose.core.DockerCli.run(DockerCli.java:82)
+	at org.springframework.boot.docker.compose.core.DefaultDockerCompose.up(DefaultDockerCompose.java:58)
+	at org.springframework.boot.docker.compose.lifecycle.StartCommand.applyTo(StartCommand.java:51)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager.start(DockerComposeLifecycleManager.java:133)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:53)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:35)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:180)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:173)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:151)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:133)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:137)
+	at org.springframework.boot.context.event.EventPublishingRunListener.contextLoaded(EventPublishingRunListener.java:99)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$contextLoaded$0(SpringApplicationRunListeners.java:74)
+	at java.base/java.util.ImmutableCollections$List12.forEach(ImmutableCollections.java:681)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:123)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.contextLoaded(SpringApplicationRunListeners.java:74)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:418)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.ahmed.jobportal.JobportalApplication.main(JobportalApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+{"timestamp":"2026-09-18 10:25:34","level":"INFO","logger":"com.ahmed.jobportal.JobportalApplication","message":"Starting JobportalApplication using Java 25.0.2 with PID 21885 (/home/ahmed/Desktop/Spring Course new/Codes/section_14/jobportal/target/classes started by ahmed in /home/ahmed/Desktop/Spring Course new/Codes/section_14)"}{"timestamp":"2026-09-18 10:25:34","level":"INFO","logger":"com.ahmed.jobportal.JobportalApplication","message":"No active profile set, falling back to 1 default profile: "default""}{"timestamp":"2026-09-18 10:25:34","level":"INFO","logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","message":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable"}{"timestamp":"2026-09-18 10:25:34","level":"INFO","logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","message":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'"}{"timestamp":"2026-09-18 10:25:34","level":"INFO","logger":"org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager","message":"Using Docker Compose file /home/ahmed/Desktop/Spring Course new/Codes/section_14/compose.yml"}{"timestamp":"2026-09-18 10:25:35","level":"INFO","logger":"org.hibernate.validator.internal.util.Version","message":"HV000001: Hibernate Validator 9.1.0.Final"}{"timestamp":"2026-09-18 10:25:36","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":" Container jobportaldb Creating "}{"timestamp":"2026-09-18 10:25:36","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":" Container jobportaldb Error response from daemon: Conflict. The container name "/jobportaldb" is already in use by container "275b1af628abc80735cad1ddb1a9cad762599b53236c0cda53728c6235b38fe9". You have to remove (or rename) that container to be able to reuse that name. "}{"timestamp":"2026-09-18 10:25:36","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":"Error response from daemon: Conflict. The container name "/jobportaldb" is already in use by container "275b1af628abc80735cad1ddb1a9cad762599b53236c0cda53728c6235b38fe9". You have to remove (or rename) that container to be able to reuse that name."}{"timestamp":"2026-09-18 10:25:36","level":"INFO","logger":"org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager","message":"docker compose up failed with the following logs:
+
+"}{"timestamp":"2026-09-18 10:25:36","level":"ERROR","logger":"org.springframework.boot.SpringApplication","message":"Application run failed"}org.springframework.boot.docker.compose.core.ProcessExitException: 'docker compose --file /home/ahmed/Desktop/Spring Course new/Codes/section_14/compose.yml --ansi never up --no-color --detach --wait' failed with exit code 1.
+
+Stdout:
+
+
+Stderr:
+ Container jobportaldb Creating 
+ Container jobportaldb Error response from daemon: Conflict. The container name "/jobportaldb" is already in use by container "275b1af628abc80735cad1ddb1a9cad762599b53236c0cda53728c6235b38fe9". You have to remove (or rename) that container to be able to reuse that name. 
+Error response from daemon: Conflict. The container name "/jobportaldb" is already in use by container "275b1af628abc80735cad1ddb1a9cad762599b53236c0cda53728c6235b38fe9". You have to remove (or rename) that container to be able to reuse that name.
+
+	at org.springframework.boot.docker.compose.core.ProcessRunner.run(ProcessRunner.java:102)
+	at org.springframework.boot.docker.compose.core.DockerCli.run(DockerCli.java:82)
+	at org.springframework.boot.docker.compose.core.DefaultDockerCompose.up(DefaultDockerCompose.java:58)
+	at org.springframework.boot.docker.compose.lifecycle.StartCommand.applyTo(StartCommand.java:51)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager.start(DockerComposeLifecycleManager.java:133)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:53)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:35)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:180)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:173)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:151)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:133)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:137)
+	at org.springframework.boot.context.event.EventPublishingRunListener.contextLoaded(EventPublishingRunListener.java:99)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$contextLoaded$0(SpringApplicationRunListeners.java:74)
+	at java.base/java.util.ImmutableCollections$List12.forEach(ImmutableCollections.java:681)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:123)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.contextLoaded(SpringApplicationRunListeners.java:74)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:418)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.ahmed.jobportal.JobportalApplication.main(JobportalApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+{"timestamp":"2026-09-18 10:26:08","level":"INFO","logger":"com.ahmed.jobportal.JobportalApplication","message":"Starting JobportalApplication using Java 25.0.2 with PID 22157 (/home/ahmed/Desktop/Spring Course new/Codes/section_14/jobportal/target/classes started by ahmed in /home/ahmed/Desktop/Spring Course new/Codes/section_14)"}{"timestamp":"2026-09-18 10:26:08","level":"INFO","logger":"com.ahmed.jobportal.JobportalApplication","message":"No active profile set, falling back to 1 default profile: "default""}{"timestamp":"2026-09-18 10:26:08","level":"INFO","logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","message":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable"}{"timestamp":"2026-09-18 10:26:08","level":"INFO","logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","message":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'"}{"timestamp":"2026-09-18 10:26:08","level":"INFO","logger":"org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager","message":"Using Docker Compose file /home/ahmed/Desktop/Spring Course new/Codes/section_14/compose.yml"}{"timestamp":"2026-09-18 10:26:09","level":"INFO","logger":"org.hibernate.validator.internal.util.Version","message":"HV000001: Hibernate Validator 9.1.0.Final"}{"timestamp":"2026-09-18 10:26:09","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":" Container jobportaldb Creating "}{"timestamp":"2026-09-18 10:26:10","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":" Container jobportaldb Error response from daemon: Conflict. The container name "/jobportaldb" is already in use by container "275b1af628abc80735cad1ddb1a9cad762599b53236c0cda53728c6235b38fe9". You have to remove (or rename) that container to be able to reuse that name. "}{"timestamp":"2026-09-18 10:26:10","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":"Error response from daemon: Conflict. The container name "/jobportaldb" is already in use by container "275b1af628abc80735cad1ddb1a9cad762599b53236c0cda53728c6235b38fe9". You have to remove (or rename) that container to be able to reuse that name."}{"timestamp":"2026-09-18 10:26:10","level":"INFO","logger":"org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager","message":"docker compose up failed with the following logs:
+
+"}{"timestamp":"2026-09-18 10:26:10","level":"ERROR","logger":"org.springframework.boot.SpringApplication","message":"Application run failed"}org.springframework.boot.docker.compose.core.ProcessExitException: 'docker compose --file /home/ahmed/Desktop/Spring Course new/Codes/section_14/compose.yml --ansi never up --no-color --detach --wait' failed with exit code 1.
+
+Stdout:
+
+
+Stderr:
+ Container jobportaldb Creating 
+ Container jobportaldb Error response from daemon: Conflict. The container name "/jobportaldb" is already in use by container "275b1af628abc80735cad1ddb1a9cad762599b53236c0cda53728c6235b38fe9". You have to remove (or rename) that container to be able to reuse that name. 
+Error response from daemon: Conflict. The container name "/jobportaldb" is already in use by container "275b1af628abc80735cad1ddb1a9cad762599b53236c0cda53728c6235b38fe9". You have to remove (or rename) that container to be able to reuse that name.
+
+	at org.springframework.boot.docker.compose.core.ProcessRunner.run(ProcessRunner.java:102)
+	at org.springframework.boot.docker.compose.core.DockerCli.run(DockerCli.java:82)
+	at org.springframework.boot.docker.compose.core.DefaultDockerCompose.up(DefaultDockerCompose.java:58)
+	at org.springframework.boot.docker.compose.lifecycle.StartCommand.applyTo(StartCommand.java:51)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager.start(DockerComposeLifecycleManager.java:133)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:53)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:35)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:180)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:173)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:151)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:133)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:137)
+	at org.springframework.boot.context.event.EventPublishingRunListener.contextLoaded(EventPublishingRunListener.java:99)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$contextLoaded$0(SpringApplicationRunListeners.java:74)
+	at java.base/java.util.ImmutableCollections$List12.forEach(ImmutableCollections.java:681)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:123)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.contextLoaded(SpringApplicationRunListeners.java:74)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:418)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.ahmed.jobportal.JobportalApplication.main(JobportalApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+{"timestamp":"2026-09-18 10:26:35","level":"INFO","logger":"com.ahmed.jobportal.JobportalApplication","message":"Starting JobportalApplication using Java 25.0.2 with PID 22555 (/home/ahmed/Desktop/Spring Course new/Codes/section_14/jobportal/target/classes started by ahmed in /home/ahmed/Desktop/Spring Course new/Codes/section_14)"}{"timestamp":"2026-09-18 10:26:35","level":"INFO","logger":"com.ahmed.jobportal.JobportalApplication","message":"No active profile set, falling back to 1 default profile: "default""}{"timestamp":"2026-09-18 10:26:35","level":"INFO","logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","message":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable"}{"timestamp":"2026-09-18 10:26:35","level":"INFO","logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","message":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'"}{"timestamp":"2026-09-18 10:26:35","level":"INFO","logger":"org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager","message":"Using Docker Compose file /home/ahmed/Desktop/Spring Course new/Codes/section_14/compose.yml"}{"timestamp":"2026-09-18 10:26:36","level":"INFO","logger":"org.hibernate.validator.internal.util.Version","message":"HV000001: Hibernate Validator 9.1.0.Final"}{"timestamp":"2026-09-18 10:26:36","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":" Container jobportaldb Creating "}{"timestamp":"2026-09-18 10:26:36","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":" Container jobportaldb Error response from daemon: Conflict. The container name "/jobportaldb" is already in use by container "275b1af628abc80735cad1ddb1a9cad762599b53236c0cda53728c6235b38fe9". You have to remove (or rename) that container to be able to reuse that name. "}{"timestamp":"2026-09-18 10:26:36","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":"Error response from daemon: Conflict. The container name "/jobportaldb" is already in use by container "275b1af628abc80735cad1ddb1a9cad762599b53236c0cda53728c6235b38fe9". You have to remove (or rename) that container to be able to reuse that name."}{"timestamp":"2026-09-18 10:26:36","level":"INFO","logger":"org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager","message":"docker compose up failed with the following logs:
+
+"}{"timestamp":"2026-09-18 10:26:36","level":"ERROR","logger":"org.springframework.boot.SpringApplication","message":"Application run failed"}org.springframework.boot.docker.compose.core.ProcessExitException: 'docker compose --file /home/ahmed/Desktop/Spring Course new/Codes/section_14/compose.yml --ansi never up --no-color --detach --wait' failed with exit code 1.
+
+Stdout:
+
+
+Stderr:
+ Container jobportaldb Creating 
+ Container jobportaldb Error response from daemon: Conflict. The container name "/jobportaldb" is already in use by container "275b1af628abc80735cad1ddb1a9cad762599b53236c0cda53728c6235b38fe9". You have to remove (or rename) that container to be able to reuse that name. 
+Error response from daemon: Conflict. The container name "/jobportaldb" is already in use by container "275b1af628abc80735cad1ddb1a9cad762599b53236c0cda53728c6235b38fe9". You have to remove (or rename) that container to be able to reuse that name.
+
+	at org.springframework.boot.docker.compose.core.ProcessRunner.run(ProcessRunner.java:102)
+	at org.springframework.boot.docker.compose.core.DockerCli.run(DockerCli.java:82)
+	at org.springframework.boot.docker.compose.core.DefaultDockerCompose.up(DefaultDockerCompose.java:58)
+	at org.springframework.boot.docker.compose.lifecycle.StartCommand.applyTo(StartCommand.java:51)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager.start(DockerComposeLifecycleManager.java:133)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:53)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:35)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:180)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:173)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:151)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:133)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:137)
+	at org.springframework.boot.context.event.EventPublishingRunListener.contextLoaded(EventPublishingRunListener.java:99)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$contextLoaded$0(SpringApplicationRunListeners.java:74)
+	at java.base/java.util.ImmutableCollections$List12.forEach(ImmutableCollections.java:681)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:123)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.contextLoaded(SpringApplicationRunListeners.java:74)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:418)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.ahmed.jobportal.JobportalApplication.main(JobportalApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+{"timestamp":"2026-09-18 10:27:49","level":"INFO","logger":"com.ahmed.jobportal.JobportalApplication","message":"Starting JobportalApplication using Java 25.0.2 with PID 23127 (/home/ahmed/Desktop/Spring Course new/Codes/section_14/jobportal/target/classes started by ahmed in /home/ahmed/Desktop/Spring Course new/Codes/section_14)"}{"timestamp":"2026-09-18 10:27:49","level":"INFO","logger":"com.ahmed.jobportal.JobportalApplication","message":"No active profile set, falling back to 1 default profile: "default""}{"timestamp":"2026-09-18 10:27:49","level":"INFO","logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","message":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable"}{"timestamp":"2026-09-18 10:27:49","level":"INFO","logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","message":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'"}{"timestamp":"2026-09-18 10:27:49","level":"INFO","logger":"org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager","message":"Using Docker Compose file /home/ahmed/Desktop/Spring Course new/Codes/section_14/compose.yml"}{"timestamp":"2026-09-18 10:27:49","level":"INFO","logger":"org.hibernate.validator.internal.util.Version","message":"HV000001: Hibernate Validator 9.1.0.Final"}{"timestamp":"2026-09-18 10:27:50","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":" Container jobportaldb Creating "}{"timestamp":"2026-09-18 10:27:50","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":" Container jobportaldb Error response from daemon: Conflict. The container name "/jobportaldb" is already in use by container "275b1af628abc80735cad1ddb1a9cad762599b53236c0cda53728c6235b38fe9". You have to remove (or rename) that container to be able to reuse that name. "}{"timestamp":"2026-09-18 10:27:50","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":"Error response from daemon: Conflict. The container name "/jobportaldb" is already in use by container "275b1af628abc80735cad1ddb1a9cad762599b53236c0cda53728c6235b38fe9". You have to remove (or rename) that container to be able to reuse that name."}{"timestamp":"2026-09-18 10:27:50","level":"INFO","logger":"org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager","message":"docker compose up failed with the following logs:
+
+"}{"timestamp":"2026-09-18 10:27:50","level":"ERROR","logger":"org.springframework.boot.SpringApplication","message":"Application run failed"}org.springframework.boot.docker.compose.core.ProcessExitException: 'docker compose --file /home/ahmed/Desktop/Spring Course new/Codes/section_14/compose.yml --ansi never up --no-color --detach --wait' failed with exit code 1.
+
+Stdout:
+
+
+Stderr:
+ Container jobportaldb Creating 
+ Container jobportaldb Error response from daemon: Conflict. The container name "/jobportaldb" is already in use by container "275b1af628abc80735cad1ddb1a9cad762599b53236c0cda53728c6235b38fe9". You have to remove (or rename) that container to be able to reuse that name. 
+Error response from daemon: Conflict. The container name "/jobportaldb" is already in use by container "275b1af628abc80735cad1ddb1a9cad762599b53236c0cda53728c6235b38fe9". You have to remove (or rename) that container to be able to reuse that name.
+
+	at org.springframework.boot.docker.compose.core.ProcessRunner.run(ProcessRunner.java:102)
+	at org.springframework.boot.docker.compose.core.DockerCli.run(DockerCli.java:82)
+	at org.springframework.boot.docker.compose.core.DefaultDockerCompose.up(DefaultDockerCompose.java:58)
+	at org.springframework.boot.docker.compose.lifecycle.StartCommand.applyTo(StartCommand.java:51)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager.start(DockerComposeLifecycleManager.java:133)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:53)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:35)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:180)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:173)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:151)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:133)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:137)
+	at org.springframework.boot.context.event.EventPublishingRunListener.contextLoaded(EventPublishingRunListener.java:99)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$contextLoaded$0(SpringApplicationRunListeners.java:74)
+	at java.base/java.util.ImmutableCollections$List12.forEach(ImmutableCollections.java:681)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:123)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.contextLoaded(SpringApplicationRunListeners.java:74)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:418)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:320)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.ahmed.jobportal.JobportalApplication.main(JobportalApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+{"timestamp":"2026-09-18 10:30:24","level":"INFO","logger":"com.ahmed.jobportal.JobportalApplication","message":"Starting JobportalApplication using Java 25.0.2 with PID 24307 (/home/ahmed/Desktop/Spring Course new/Codes/section_14/jobportal/target/classes started by ahmed in /home/ahmed/Desktop/Spring Course new/Codes/section_14)"}{"timestamp":"2026-09-18 10:30:24","level":"INFO","logger":"com.ahmed.jobportal.JobportalApplication","message":"No active profile set, falling back to 1 default profile: "default""}{"timestamp":"2026-09-18 10:30:24","level":"INFO","logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","message":"Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable"}{"timestamp":"2026-09-18 10:30:24","level":"INFO","logger":"org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor","message":"For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'"}{"timestamp":"2026-09-18 10:30:24","level":"INFO","logger":"org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager","message":"Using Docker Compose file /home/ahmed/Desktop/Spring Course new/Codes/section_14/compose.yml"}{"timestamp":"2026-09-18 10:30:25","level":"INFO","logger":"org.hibernate.validator.internal.util.Version","message":"HV000001: Hibernate Validator 9.1.0.Final"}{"timestamp":"2026-09-18 10:30:25","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":" Container section_14-dbservice-1 Creating "}{"timestamp":"2026-09-18 10:30:26","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":" Container section_14-dbservice-1 Created "}{"timestamp":"2026-09-18 10:30:26","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":" Container section_14-dbservice-1 Starting "}{"timestamp":"2026-09-18 10:30:26","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":" Container section_14-dbservice-1 Started "}{"timestamp":"2026-09-18 10:30:26","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":" Container section_14-dbservice-1 Waiting "}{"timestamp":"2026-09-18 10:30:27","level":"INFO","logger":"org.springframework.boot.docker.compose.core.DockerCli","message":" Container section_14-dbservice-1 Healthy "}{"timestamp":"2026-09-18 10:30:32","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Bootstrapping Spring Data JPA repositories in DEFAULT mode."}{"timestamp":"2026-09-18 10:30:32","level":"INFO","logger":"org.springframework.data.repository.config.RepositoryConfigurationDelegate","message":"Finished Spring Data repository scanning in 86 ms. Found 4 JPA repository interfaces."}{"timestamp":"2026-09-18 10:30:34","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat initialized with port 8080 (http)"}{"timestamp":"2026-09-18 10:30:34","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Initializing ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-09-18 10:30:34","level":"INFO","logger":"org.apache.catalina.core.StandardService","message":"Starting service [Tomcat]"}{"timestamp":"2026-09-18 10:30:34","level":"INFO","logger":"org.apache.catalina.core.StandardEngine","message":"Starting Servlet engine: [Apache Tomcat/11.0.22]"}{"timestamp":"2026-09-18 10:30:34","level":"INFO","logger":"org.springframework.boot.web.context.servlet.WebApplicationContextInitializer","message":"Root WebApplicationContext: initialization completed in 2735 ms"}{"timestamp":"2026-09-18 10:30:34","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Starting..."}{"timestamp":"2026-09-18 10:30:34","level":"INFO","logger":"com.zaxxer.hikari.pool.HikariPool","message":"HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1383968b"}{"timestamp":"2026-09-18 10:30:34","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Start completed."}{"timestamp":"2026-09-18 10:30:35","level":"INFO","logger":"org.hibernate.orm.jpa","message":"HHH008540: Processing PersistenceUnitInfo [name: default]"}{"timestamp":"2026-09-18 10:30:35","level":"INFO","logger":"org.hibernate.orm.core","message":"HHH000001: Hibernate ORM core version 7.4.1.Final"}{"timestamp":"2026-09-18 10:30:36","level":"INFO","logger":"org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo","message":"No LoadTimeWeaver setup: ignoring JPA class transformer"}{"timestamp":"2026-09-18 10:30:36","level":"INFO","logger":"org.hibernate.orm.connections.pooling","message":"HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://127.0.0.1:3306/jobportal]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.7
+	Default catalog/schema: jobportal/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown"}{"timestamp":"2026-09-18 10:30:38","level":"INFO","logger":"org.hibernate.orm.core","message":"HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)"}{"timestamp":"2026-09-18 10:30:39","level":"WARN","logger":"org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl","message":"GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table jobs 
+       modify column benefits tinytext" via JDBC [Data truncation: Data too long for column 'benefits' at row 48]"}org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table jobs 
+       modify column benefits tinytext" via JDBC [Data truncation: Data too long for column 'benefits' at row 48]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:91)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:566)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:506)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:324)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:220)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:96)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:269)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$1(SchemaManagementToolCoordinator.java:101)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:100)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:35)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:33)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:327)
+	at org.hibernate.internal.SessionFactoryRegistry.instantiateSessionFactory(SessionFactoryRegistry.java:64)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:458)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1452)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:93)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:443)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:436)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:411)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1811)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:977)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.ahmed.jobportal.JobportalApplication.main(JobportalApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'benefits' at row 48
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:96)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:839)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:687)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:86)
+	... 41 common frames omitted
+{"timestamp":"2026-09-18 10:30:39","level":"WARN","logger":"org.hibernate.tool.schema.internal.ExceptionHandlerLoggedImpl","message":"GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table jobs 
+       modify column description tinytext not null" via JDBC [Data truncation: Data too long for column 'description' at row 132]"}org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table jobs 
+       modify column description tinytext not null" via JDBC [Data truncation: Data too long for column 'description' at row 132]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:91)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:566)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:506)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.migrateTable(AbstractSchemaMigrator.java:324)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:84)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:220)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:96)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:269)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$1(SchemaManagementToolCoordinator.java:101)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:100)
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:35)
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:33)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:327)
+	at org.hibernate.internal.SessionFactoryRegistry.instantiateSessionFactory(SessionFactoryRegistry.java:64)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:458)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1452)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:93)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:443)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:436)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:411)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:419)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1811)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:977)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at com.ahmed.jobportal.JobportalApplication.main(JobportalApplication.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'description' at row 132
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:96)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:839)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:687)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:86)
+	... 41 common frames omitted
+{"timestamp":"2026-09-18 10:30:39","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Initialized JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-09-18 10:30:39","level":"INFO","logger":"org.springframework.data.jpa.repository.query.QueryEnhancerFactories","message":"Hibernate is in classpath; If applicable, HQL parser will be used."}{"timestamp":"2026-09-18 10:30:40","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Entering method: publicPaths"}{"timestamp":"2026-09-18 10:30:40","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Arguments: []"}{"timestamp":"2026-09-18 10:30:40","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Method executed successful: publicPaths"}{"timestamp":"2026-09-18 10:30:40","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Execution Time: 1 ms"}{"timestamp":"2026-09-18 10:30:40","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Entering method: securedPaths"}{"timestamp":"2026-09-18 10:30:40","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Arguments: []"}{"timestamp":"2026-09-18 10:30:40","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Method executed successful: securedPaths"}{"timestamp":"2026-09-18 10:30:40","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Execution Time: 0 ms"}{"timestamp":"2026-09-18 10:30:40","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Entering method: passwordEncoder"}{"timestamp":"2026-09-18 10:30:40","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Arguments: []"}{"timestamp":"2026-09-18 10:30:40","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Method executed successful: passwordEncoder"}{"timestamp":"2026-09-18 10:30:40","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Execution Time: 3 ms"}{"timestamp":"2026-09-18 10:30:40","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Entering method: authenticationManager"}{"timestamp":"2026-09-18 10:30:40","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Arguments: [com.ahmed.jobportal.security.JobPortalUsernamePwdAuthenticationProvider@653307ce]"}{"timestamp":"2026-09-18 10:30:40","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Method executed successful: authenticationManager"}{"timestamp":"2026-09-18 10:30:40","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Execution Time: 9 ms"}{"timestamp":"2026-09-18 10:30:40","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Entering method: compromisedPasswordChecker"}{"timestamp":"2026-09-18 10:30:40","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Arguments: []"}{"timestamp":"2026-09-18 10:30:40","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Method executed successful: compromisedPasswordChecker"}{"timestamp":"2026-09-18 10:30:40","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Execution Time: 201 ms"}{"timestamp":"2026-09-18 10:30:41","level":"WARN","logger":"org.springframework.boot.jpa.autoconfigure.JpaBaseConfiguration$JpaWebConfiguration","message":"spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning"}{"timestamp":"2026-09-18 10:30:41","level":"INFO","logger":"org.springframework.security.config.annotation.authentication.configuration.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer","message":"Global AuthenticationManager configured with AuthenticationProvider bean with name jobPortalUsernamePwdAuthenticationProvider"}{"timestamp":"2026-09-18 10:30:41","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Entering method: configurePathMatch"}{"timestamp":"2026-09-18 10:30:41","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Arguments: [org.springframework.web.servlet.config.annotation.PathMatchConfigurer@57591015]"}{"timestamp":"2026-09-18 10:30:41","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Method executed successful: configurePathMatch"}{"timestamp":"2026-09-18 10:30:41","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Execution Time: 1 ms"}{"timestamp":"2026-09-18 10:30:41","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Entering method: customSecurityFilterChain"}{"timestamp":"2026-09-18 10:30:41","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Arguments: [org.springframework.security.config.annotation.web.builders.HttpSecurity@6f0bb2e7]"}{"timestamp":"2026-09-18 10:30:41","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Entering method: corsConfigurationSource"}{"timestamp":"2026-09-18 10:30:41","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Arguments: []"}{"timestamp":"2026-09-18 10:30:41","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Method executed successful: corsConfigurationSource"}{"timestamp":"2026-09-18 10:30:41","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Execution Time: 5 ms"}{"timestamp":"2026-09-18 10:30:42","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Method executed successful: customSecurityFilterChain"}{"timestamp":"2026-09-18 10:30:42","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Execution Time: 141 ms"}{"timestamp":"2026-09-18 10:30:42","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Entering method: configureApiVersioning"}{"timestamp":"2026-09-18 10:30:42","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Arguments: [org.springframework.web.servlet.config.annotation.ApiVersionConfigurer@20fb6ea2]"}{"timestamp":"2026-09-18 10:30:42","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Method executed successful: configureApiVersioning"}{"timestamp":"2026-09-18 10:30:42","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Execution Time: 3 ms"}{"timestamp":"2026-09-18 10:30:43","level":"INFO","logger":"org.apache.coyote.http11.Http11NioProtocol","message":"Starting ProtocolHandler ["http-nio-8080"]"}{"timestamp":"2026-09-18 10:30:43","level":"INFO","logger":"org.springframework.boot.tomcat.TomcatWebServer","message":"Tomcat started on port 8080 (http) with context path '/'"}{"timestamp":"2026-09-18 10:30:43","level":"INFO","logger":"com.ahmed.jobportal.JobportalApplication","message":"Started JobportalApplication in 19.794 seconds (process running for 21.633)"}{"timestamp":"2026-09-18 10:30:43","level":"WARN","logger":"org.springdoc.core.events.SpringDocAppInitializer","message":"SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'"}{"timestamp":"2026-09-18 10:30:43","level":"WARN","logger":"org.springdoc.core.events.SpringDocAppInitializer","message":"SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'"}{"timestamp":"2026-09-18 10:31:18","level":"INFO","logger":"org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]","message":"Initializing Spring DispatcherServlet 'dispatcherServlet'"}{"timestamp":"2026-09-18 10:31:18","level":"INFO","logger":"org.springframework.web.servlet.DispatcherServlet","message":"Initializing Servlet 'dispatcherServlet'"}{"timestamp":"2026-09-18 10:31:18","level":"INFO","logger":"org.springframework.web.servlet.DispatcherServlet","message":"Completed initialization in 2 ms"}{"timestamp":"2026-09-18 10:31:18","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Entering method: getAllCompanies"}{"timestamp":"2026-09-18 10:31:18","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Arguments: []"}{"timestamp":"2026-09-18 10:31:18","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Entering method: getAllCompanies"}{"timestamp":"2026-09-18 10:31:18","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Arguments: []"}{"timestamp":"2026-09-18 10:31:18","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Entering method: findAll"}{"timestamp":"2026-09-18 10:31:18","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Arguments: []"}{"timestamp":"2026-09-18 10:31:19","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Method executed successful: findAll"}{"timestamp":"2026-09-18 10:31:19","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Execution Time: 342 ms"}{"timestamp":"2026-09-18 10:31:19","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Method executed successful: getAllCompanies"}{"timestamp":"2026-09-18 10:31:19","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Execution Time: 777 ms"}{"timestamp":"2026-09-18 10:31:19","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"-> Method executed successful: getAllCompanies"}{"timestamp":"2026-09-18 10:31:19","level":"INFO","logger":"com.ahmed.jobportal.aspects.LogAndMeasureExecutionTime","message":"*  Execution Time: 788 ms"}{"timestamp":"2026-09-18 11:34:16","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Commencing graceful shutdown. Waiting for active requests to complete"}{"timestamp":"2026-09-18 11:34:16","level":"INFO","logger":"org.springframework.boot.tomcat.GracefulShutdown","message":"Graceful shutdown complete"}{"timestamp":"2026-09-18 11:34:16","level":"INFO","logger":"org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean","message":"Closing JPA EntityManagerFactory for persistence unit 'default'"}{"timestamp":"2026-09-18 11:34:16","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Shutdown initiated..."}{"timestamp":"2026-09-18 11:34:16","level":"INFO","logger":"com.zaxxer.hikari.HikariDataSource","message":"HikariPool-1 - Shutdown completed."}
